@@ -29,13 +29,13 @@ form.addEventListener("submit",(event) =>{
         let calculateDayOfWeek  = ( ( (cen/4) -2*cen-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7
         let dayOfWeek = calculateDayOfWeek.toFixed() -1;
     
-        // if (genderValue == "Female"){
-        //     document.getElementById("output").innerHTML = ("You were born on" + " "  + day[dayOfWeek]+ " " +"so your Akan name is"+ " " +  female[dayOfWeek] );
-        // }
-        // else {
+        if (genderValue == "Female"){
+            document.getElementById("output").innerHTML = ("You were born on" + " "  + day[dayOfWeek]+ " " +"so your Akan name is"+ " " +  female[dayOfWeek] );
+        }
+        else {
             
-        //     document.getElementById("output").innerHTML = ("You were born on" + " " + day[dayOfWeek]+ " " + "so your Akan name is"+ " " + male[dayOfWeek] );
-        // }
+            document.getElementById("output").innerHTML = ("You were born on" + " " + day[dayOfWeek]+ " " + "so your Akan name is"+ " " + male[dayOfWeek] );
+        }
     
     });
        
