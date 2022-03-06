@@ -4,7 +4,11 @@
 ## Table of Contents
 
 + [Description](#description)
-+ [Installation Requirement](#Installation)
++ [Installation Requirement](#Installation-Requirement )
++ [Installation Process](#installation-Process)
++ [Features](#features)
++ [Behaviour Driven Development](#BDD)
++ [Bugs](#bugs)
 + [Technology Used](#technology-used)
 + [Reference](#reference)
 + [Licence](#licence)
@@ -22,6 +26,17 @@
 * An access to the Internet
 
 ### Installation Process
+It is easy to get started with the Akan-naming web application.
+* Copy the repository url.
+* use **git clone** the url to get the project to your local computer.
+
+
+    * **git clone https://github.com/Mercywairimu01/Akan-naming.git**
+*   The repo comes in a zipped or compressed format. Extract to your prefered location and open it.
+
+* now open the directory created with your favorite IDE. if Atom just type **.atom** if VSCode type **.code** . This will lauch the editor with the project setup, 
+
+* Now feel free to hack around the project.
 
 ## Features
 
@@ -40,22 +55,11 @@ As a user of the web application you will be able to:
 |----------------------|:---------------------------:|----------------------:|       
 |Page loads and  a form displayed|User enters required form data and clicks submit|Their Akan name is displayed     |                       
 |Shows a required field|user skips one of the required inputs on the form|Please fill this field|
-## Working Live Application
 You can see the live working application through the this link. [Akan Name]()
 
-## Getting started
+## Bugs
+There are no known  bugs but if any found please feel free to contact me or cloning the repository and after making changes making a pull request.
 
-It is easy to get started with  Ghana Birthday Akan web application.
-* Copy the repository url.
-* use **git clone** the url to get the project to your local computer.
-
-
-    * **git clone https://github.com/Mercywairimu01/Akan-naming.git**
-*   The repo comes in a zipped or compressed format. Extract to your prefered location and open it.
-
-* now open the directory created with your favorite IDE. if Atom just type **.atom** if VSCode type **.code** . This will lauch the editor with the project setup, 
-
-* Now feel free to hack around the project.
 
 ## Technology Used
 * HTML - which was used to build the structure of the pages.
