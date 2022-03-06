@@ -41,7 +41,6 @@
 /* table part */
 
 table.td{
-    background-color: rgb(206, 31, 38);
     margin-left: 18%;
     align-items: center;
    
@@ -52,7 +51,7 @@ table td{
     border-color: black;
     border-style: solid;
     border-width: 1px; 
-    padding: 5px 5px;
+    /* padding: 5px 5px; */
     word-break: normal;
 }
 table th{
@@ -60,7 +59,7 @@ table th{
     border-color: black;
     border-style: solid;
     border-width: 1px; 
-    padding: 5px 5px;
+    /* padding: 5px 5px; */
     word-break: normal;
 }
 p{
@@ -68,8 +67,8 @@ p{
 }
 /* form section */
 #birth{
-    border:2px solid black; 
-   box-shadow: 10px 3px  green;
+    border:2px solid green; 
+   box-shadow: 10px 10px 2px green;
 
 }
 
