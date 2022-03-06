@@ -1,30 +1,48 @@
-// var day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-// var male = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-// var female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+var day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+var male = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+var female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
-// dsfsdAF
-var akan = function(year, month, day, gender) {
-    var female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-    var male = ["Kwasi", "Kudwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-    var day = new Date(year, month, day);
-    if (gender === "Female") {
-        return day && female[day.getDay()];
-    } else {
-        return day && male[day.getDay()];
-    }
-};
 
-// User interface (or front-end) logic:
-// $(document).ready(function(){
-//     $("form.form").submit(function(event) {
+
+
+let button = document.getElementById("btn");
+let form = document.getElementById("birth");
+// form.addEventListener("submit",(event) =>{
 //         event.preventDefault();
-//         var year = parseInt($("#year").value());
-//         var month = parseInt($("#month").value());
-//         var day = parseInt($("#date").value());
-//         var gender = $("input:radio[name=gender]:checked").val();
-//         var result = akan(year, month, day, gender);
-//         alert("Your akan name is:" + result);
-//         //refresh page
-//         document.getElementsByClassName("form").reset();
+//         let formData = new FormData(event.target)
+//         var year = document.getElementById("year").value;
+//         var month = document.getElementById("month").value;
+//         var myDate = document.getElementById("date").value;
+//         var gender = document.getElementsByName("gender");
+     
+//     // console.log(typeof year)
+
+//         for (var i = 0; i < gender.length; i++) {
+//             if (gender[i].checked)
+//                 var genderValue = gender[i].value;
+//         }
+//         let cen = Number(year.slice(0,2));
+//         let yy = Number(year.slice(2));
+//         // console.log(yy)
+//         let mm =Number(month)
+//         let dd =Number(myDate)
+//         let calculateDayOfWeek  = ( ( (cen/4) -2*cen-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7
+//         let dayOfWeek = calculateDayOfWeek.toFixed() -1;
+    
+//         if (genderValue == "Female"){
+//             document.getElementById("output").innerHTML = ("You were born on" + " "  + day[dayOfWeek]+ " " +"so your Akan name is"+ " " +  female[dayOfWeek] );
+//         }
+//         else {
+            
+//             document.getElementById("output").innerHTML = ("You were born on" + " " + day[dayOfWeek]+ " " + "so your Akan name is"+ " " + male[dayOfWeek] );
+//         }
+    
 //     });
-// });
+       
+
+
+
+
+
+
+
