@@ -17,7 +17,7 @@ form.addEventListener("submit",(event) =>{
         var date = document.getElementById("date").value;
         let myDate = new Date(year,--month,date);
         let dayOfWeek = myDate.getDay();
-         alert(dayOfWeek)
+//          alert(dayOfWeek)
        
           let gender = document.getElementsByName("gender");
 
